@@ -8,7 +8,7 @@ import { faBars, faMoon, faXmark } from '@fortawesome/free-solid-svg-icons'
   }
   return (
     <div>
-        <header className=" bg-primaryColor fixed top-0 left-0 w-full z-50 " >
+        <header className=" bg-primaryColor fixed top-0 left-0  w-full z-50 " >
       <nav className="container flex justify-between items-center h-14 relative ">
         <div className=" text-2xl uppercase font-Roboto">
           <a href="#">Shabbir <span className="text-secondaryColor">Anjum</span></a>
