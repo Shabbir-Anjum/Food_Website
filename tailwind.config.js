@@ -1,3 +1,5 @@
+import { transformWithEsbuild } from 'vite'
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -24,6 +26,14 @@ export default {
         darkColorLight: "#171717",
       }
     },
+    keyframes:{
+      move:{
+        '50%': {transform: 'translateY(-1rem) '}
+      }
+    },
+    animation:{
+      'movingY': 'move 2s lenear infinite'
+    },
     fontFamily:{
       Roboto:['Roboto', 'sans-serif']
     },
@@ -34,6 +44,7 @@ export default {
         sm: '1.5rem'
       }
     },
+
   },
   plugins: [],
 }
