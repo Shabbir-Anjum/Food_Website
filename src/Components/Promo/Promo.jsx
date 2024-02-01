@@ -4,15 +4,12 @@ import PromoCard from "./PromoCard";
 export default function Promo() {
   return (
     <>
-      <div className="container flex justify-center flex-wrap gap-10 flex-row mt-8">
+      <div className="container flex mt-8  gap-4 flex-wrap justify-center w-full">
         <div className="">
-          <PromoCard />
+          <PromoCard promoimage={"/src/Components/img/promo-1.png"}/>
         </div>
         <div>
-          <PromoCard />
-        </div>
-        <div>
-          <PromoCard />
+          <PromoCard promoimage={"/src/Components/img/promo-2.png"} />
         </div>
       </div>
     </>

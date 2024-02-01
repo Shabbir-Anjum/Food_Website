@@ -14,13 +14,19 @@
     .title{
         @apply uppercase lg:text-6xl font-bold text-4xl font-Roboto;
     }
-    .card_title{
-        @apply text-3xl;
+    .card_title, .about_title{
+        @apply text-3xl font-Roboto;
     }
     .seperator{
         @apply my-5 h-[2px] w-36 bg-secondaryColor;
     }
     .btn{
         @apply capitalize p-2 rounded-md ease-linear hover:opacity-70 inline-block px-8 bg-secondaryColor text-black
+    }
+    .btn2{
+        @apply capitalize p-2 rounded-md ease-linear hover:opacity-70 hover:bg-secondaryColor inline-block px-8 bg-primaryColorLight 
+    }
+    .tab ul li.active{
+      @apply  bg-secondaryColor text-black 
     }
 }
