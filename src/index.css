@@ -26,7 +26,7 @@
     .btn2{
         @apply capitalize p-2 rounded-md ease-linear hover:opacity-70 hover:bg-secondaryColor inline-block px-8 bg-primaryColorLight 
     }
-    .tab ul li.active{
-      @apply  bg-secondaryColor text-black 
-    }
+   .btn3{
+    @apply capitalize p-2 rounded-md ease-linear opacity-70  inline-block px-8 bg-secondaryColor
+   }
 }

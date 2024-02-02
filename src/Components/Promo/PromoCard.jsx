@@ -3,7 +3,7 @@ import React from "react";
 export default function PromoCard({promoimage}) {
   return (
     <>
-      <div className=" gap-4 flex justify-center w-72 md:w-[600px] lg:w-[440px] items-center p-4 flex-col mx-auto md:flex-row-reverse lg:flex-row bg-cyan-900 rounded-md ">
+      <div className=" gap-4 flex justify-center w-72 md:w-[600px] lg:w-[440px] items-center p-4 flex-col mx-auto md:flex-row-reverse lg:flex-row bg-primaryColorLight rounded-2xl ">
         <div >
           <img src={promoimage} alt="error" className=" w-36 mx-auto" />
         </div>
