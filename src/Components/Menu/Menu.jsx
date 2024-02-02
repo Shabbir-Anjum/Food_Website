@@ -9,7 +9,7 @@ export default function Menu() {
         <div className="text-center mx-auto w-1/2">
           <h2 className="title">Our Best Menu</h2>
           <div className="seperator mx-auto"></div>
-          <p>
+          <p >
             Tempore, natus fugiat dolores provident enim vitae earum labore
             eligendi quasi, omnis iusto! Id cumque, harum molestias ducimus
             incidunt esse aut! Esse!
@@ -36,8 +36,8 @@ export default function Menu() {
                   />
                 </div>
                 <div>
-                  <h4 className="2xl uppercase font-Roboto">{card.title}</h4>
-                  <p>
+                  <h4 className="3xl uppercase font-bold font-Roboto">{card.title}</h4>
+                  <p className=" text-sm ">
                     {card.about}
                   </p>
                   <div className="mt-2 font-Roboto text-fuchsia-300">{card.price}</div>

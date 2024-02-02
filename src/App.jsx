@@ -6,6 +6,7 @@ import React, { useState } from 'react'
 import Promo from './Components/Promo/Promo'
 import About from './Components/About/About'
 import Menu from './Components/Menu/Menu'
+import Review from './Components/Review/Review'
 function App() {
   let [mod, setmod]= useState(false)
   const changemode=()=>{
@@ -19,6 +20,7 @@ function App() {
     <Promo/>
     <About/>
     <Menu/>
+    <Review/>
     </>
   )
 }
