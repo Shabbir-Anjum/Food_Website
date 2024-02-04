@@ -16,8 +16,8 @@ import { faBars, faMoon, faXmark } from '@fortawesome/free-solid-svg-icons'
         <div className='flex gap-4 '>
         <div className={`${ClassN? 'block': 'hidden'} text-xl  md:static md:py-0 md:w-auto  md:block absolute left-0 top-0  w-full py-5 ${mod?'bg-darkColor' : 'bg-primaryColor'}`} >
         <ul className="flex flex-col gap-4 justify-center items-center  md:flex-row md:justify-end ">
-          <li><a onClick={handle} href="#"className="hover:text-secondaryColor ease-in duration-200">Home</a></li>
-          <li><a onClick={handle} href="#"className="hover:text-secondaryColor ease-in duration-200">About</a></li>
+          <li><a onClick={handle} href="#"className="hover:text-secondaryColor ease-out duration-200">Home</a></li>
+          <li><a onClick={handle} href="#"className="hover:text-secondaryColor ease-out duration-200">About</a></li>
           <li><a onClick={handle} href="#"className="hover:text-secondaryColor ease-in duration-200">Menu</a></li>
           <li><a onClick={handle} href="#"className="hover:text-secondaryColor ease-in duration-200">Review</a></li>
           <li><a onClick={handle} href="#"className="hover:text-secondaryColor ease-in duration-200">Contact</a></li>
@@ -39,3 +39,25 @@ import { faBars, faMoon, faXmark } from '@fortawesome/free-solid-svg-icons'
   )
 }
 export default Headar;
+<ul className='flex flex-col gap-4 justify-center items-center md:flex-row md:justify-end'>
+              <li className='md:inline-block'>
+                <div className='md:inline text-greenColor'>01.</div>
+                <a href="#">About</a>
+              </li>
+              <li className='md:inline-block'>
+                <div className='md:inline text-greenColor'>02.</div>
+                <a href="#">Experience</a>
+              </li>
+              <li className='md:inline-block'>
+                <div className='md:inline text-greenColor'>03.</div>
+                <a href="#">Work</a>
+              </li>
+              <li className='md:inline-block'>
+                <div className='md:inline text-greenColor'>04.</div>
+                <a href="#">Contact</a>
+              </li>
+              <li className='md:inline-block'>
+                <div className='md:inline text-greenColor'>05.</div>
+                <a href="#">Blog</a>
+              </li>
+            </ul>
