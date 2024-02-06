@@ -14,9 +14,11 @@ function Home() {
 <div>
           <div className="title text-center">
             <h1>Happy Enjoy</h1>
+
           </div>
           <div className=" seperator my-3 m-auto"></div>
           <div>
+
             <p className=" text-whiteColor font-light text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
               odio, omnis nihil at minus aspernatur corporis autem est dolores,
@@ -24,13 +26,16 @@ function Home() {
               Aspernatur, exercitationem.
             </p>
           </div>
+
           <div className="flex justify-center items-center my-4 gap-4">
             <div >
+              
                 <div className=" text-secondaryColor text-3xl">
                     <FontAwesomeIcon icon={faUtensils} />
                 </div>
                 <div>Delicious</div>
             </div>
+
             <div>
                 <div className=" text-secondaryColor text-3xl">
                     <FontAwesomeIcon icon={faDroplet} />

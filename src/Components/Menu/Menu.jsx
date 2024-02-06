@@ -5,6 +5,7 @@ export default function Menu() {
   const [isactive, setisactive]= useState('home')
   return (
     <>
+    
       <div className="container mt-20">
         <div className="text-center mx-auto w-1/2">
           <h2 className="title">Our Best Menu</h2>

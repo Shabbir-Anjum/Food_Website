@@ -29,7 +29,9 @@ import { faBars, faMoon, faXmark } from '@fortawesome/free-solid-svg-icons'
        <div className=" flex  items-center gap-5 cursor-pointer  text-xl">
        <FontAwesomeIcon icon={faMoon} onClick={mode} />
        <div className='md:hidden'>
+
        <FontAwesomeIcon icon={faBars} onClick={handle} />
+       
        </div>
        </div>
        </div>
