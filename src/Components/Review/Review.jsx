@@ -26,15 +26,15 @@ export default function Review() {
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos illo
           repellat rerum molestiae ipsa nulla! Itaque vero ut officia esse
           commodi modi inventore!
-
         </p>
       </div>
       <div className="flex gap-2 justify-center items-center">
         <div>
           <img
             src="/src/Components/img/review-1.jpg"
+
             alt="error"
-            
+
             className="w-12 h-12 rounded-full"
           />
         </div>
