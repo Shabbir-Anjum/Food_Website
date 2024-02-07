@@ -31,8 +31,10 @@ export default function Menu() {
             return <div key={index}>
                 <div className="hover:bg-secondaryColor hover:opacity-70 p-16 rounded-3xl mb-4 md:h-60 grid place-items-center lg:p-4 lg:h-40 bg-primaryColorLight">
                   <img
+                  
                     src={card.img}
                     alt="Error"
+
                     className="w-20 mx-auto"
                   />
                 </div>
@@ -40,6 +42,7 @@ export default function Menu() {
                   <h4 className="3xl uppercase font-bold font-Roboto">{card.title}</h4>
                   <p className=" text-sm ">
                     {card.about}
+
                   </p>
                   <div className="mt-2 font-Roboto text-fuchsia-300">{card.price}</div>
                 </div>

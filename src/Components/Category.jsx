@@ -9,7 +9,9 @@ export default function Category() {
             <CategoryCard src1={"/src/Components/img/snack-3.png"} bgcolor={'bg-secondaryColor'}/>
         </div>
         <div>
+
             <CategoryCard src1={"/src/Components/img/snack-2.png"} bgcolor={'bg-redColor'}/>
+            
         </div>
         <div>
         <CategoryCard src1={"/src/Components/img/snack-1.png"} bgcolor={'bg-greenColor'} />
