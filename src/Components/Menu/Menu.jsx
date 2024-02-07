@@ -13,8 +13,10 @@ export default function Menu() {
             Tempore, natus fugiat dolores provident enim vitae earum labore
             eligendi quasi, omnis iusto! Id cumque, harum molestias ducimus
             incidunt esse aut! Esse!
+
           </p>
           <div className="tab">
+
             <ul className="flex mt-8 justify-center gap-4 flex-wrap">
               <li
                 className={`flex-1 ${isactive === "home" ? "btn3" : "btn2"}`}
@@ -32,6 +34,7 @@ export default function Menu() {
                   setisactive("burger");
                 }}
               >
+                
                 Food
               </li>
               <li

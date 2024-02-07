@@ -23,9 +23,11 @@ export default function Review() {
       <div className="py-6">
 
         <p>
+          
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos illo
           repellat rerum molestiae ipsa nulla! Itaque vero ut officia esse
           commodi modi inventore!
+
         </p>
       </div>
       <div className="flex gap-2 justify-center items-center">

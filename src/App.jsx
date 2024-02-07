@@ -15,6 +15,7 @@ function App() {
   return (
     <>
     <Headar mod={mod} mode={changemode}/>
+    
     <Home/>
     <Category/>
     <Promo/>
