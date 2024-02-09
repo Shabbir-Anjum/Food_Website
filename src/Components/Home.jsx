@@ -7,8 +7,10 @@ function Home() {
   return (
     <>
       <section className="container text-center">
+        
         <div className="  flex justify-center items-center flex-col gap-10  md:flex-row">
           <div className=" mx-auto animate-movingY md:basis-1/2 ">
+
           <img src="/src/Components/img/home-image.png" alt="error" className=" text-center md:w-[800px] w-40 "/>
         </div>
 <div>
@@ -20,10 +22,12 @@ function Home() {
           <div>
 
             <p className=" text-whiteColor font-light text-sm">
+
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
               odio, omnis nihil at minus aspernatur corporis autem est dolores,
               ex, sint dolore enim quas inventore laborum pariatur consectetur.
               Aspernatur, exercitationem.
+
             </p>
           </div>
 

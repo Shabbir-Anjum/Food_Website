@@ -18,6 +18,7 @@ export default {
         primaryColorLight: "#010d78",
         secondaryColor: '#FFCC00',
         paragraphColor: '#c0c0c0',      
+        
         whiteColor: '#fff',
         blackColor: "#000",
         greenColor: "#007936",
