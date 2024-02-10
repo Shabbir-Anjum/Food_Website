@@ -20,7 +20,9 @@ export default {
         paragraphColor: '#c0c0c0',      
         
         whiteColor: '#fff',
+
         blackColor: "#000",
+        
         greenColor: "#007936",
         redColor: "#cc3433",
         darkColor: '#000',
@@ -29,11 +31,11 @@ export default {
     },
     keyframes:{
       move:{
-        '50%': {transform: 'translateY(-1rem) '}
+        '50%': {transform: 'rotate(360) '}
       }
     },
     animation:{
-      'movingY': 'move 2s lenear infinite'
+      'movingY': 'move 2s linear infinite'
     },
     fontFamily:{
       Roboto:['Roboto', 'sans-serif']

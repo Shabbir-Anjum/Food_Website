@@ -22,6 +22,7 @@ export default function Menu() {
                 className={`flex-1 ${isactive === "home" ? "btn3" : "btn2"}`}
                 onClick={() => {
                   setfood_type("all");
+                  
                   setisactive("home");
                 }}
               >

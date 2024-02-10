@@ -20,6 +20,7 @@ function App() {
     <Category/>
     <Promo/>
     <About/>
+    
     <Menu/>
     <Review/>
     </>

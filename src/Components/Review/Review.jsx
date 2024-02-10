@@ -9,6 +9,7 @@ export default function Review() {
         <div>
           <h4 className="title">Customer Review</h4>
         </div>
+        
         <div className="seperator mx-auto"></div>
         <div>
           <p>
