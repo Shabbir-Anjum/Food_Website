@@ -1,8 +1,19 @@
 import { faQuoteRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Swiper from 'swiper';
+import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+import 'swiper/css';
 import React from "react";
 
 export default function Review() {
+  const swiper = new Swiper('.swiper', {
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
   return (
     <div className="container mt-10 bg-primaryColorLight p-12 rounded-md">
       <div className="flex flex-col mx-auto items-center">
@@ -20,7 +31,8 @@ export default function Review() {
 
         </div>
       </div>
-      <div className="p-4 gap-2 rounded-md mt-4 bg-primaryColor">
+
+      <div className=" p-4 gap-2 rounded-md mt-4 bg-primaryColor">
       <div className="py-6">
 
         <p>
