@@ -11,7 +11,7 @@ function Home() {
         <div className="  flex justify-center items-center flex-col gap-10  md:flex-row">
           <div className=" mx-auto animate-movingY md:basis-1/2 ">
 
-          <img src="/src/Components/img/home-image.png" alt="error" className=" text-center md:w-[800px] w-40 "/>
+          <img src="../img/home-image.png" alt="error" className=" text-center md:w-[800px] w-40 "/>
         </div>
 <div>
           <div className="title text-center">

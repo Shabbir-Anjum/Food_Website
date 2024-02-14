@@ -7,7 +7,7 @@ export default function About() {
     <>
       <div className="container mt-8 flex flex-col md:flex-row items-center gap-4  overflow-hidden">
         <div className="flex-1">
-          <img src="/src/Components/img/about.jpg" alt="erorr" className="  rounded-lg" />
+          <img src="../img/about.jpg" alt="erorr" className="  rounded-lg" />
         </div>
         <div className="flex-1">
           <div className="about_title uppercase text-center">Find food and drinks</div>

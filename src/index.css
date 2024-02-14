@@ -30,4 +30,7 @@
    .btn3{
     @apply capitalize p-2 rounded-md ease-linear opacity-70  inline-block px-8 bg-secondaryColor
    }
+   .heading{
+    @apply text-2xl  font-Roboto uppercase
+   }
 }

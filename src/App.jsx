@@ -7,6 +7,8 @@ import Promo from './Components/Promo/Promo'
 import About from './Components/About/About'
 import Menu from './Components/Menu/Menu'
 import Review from './Components/Review/Review'
+import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   let [mod, setmod]= useState(false)
@@ -23,7 +25,8 @@ function App() {
     <About/>
     <Menu/>
     <Review/>
- 
+    <Contact/>
+    <Footer/>
     </>
   )
 }
