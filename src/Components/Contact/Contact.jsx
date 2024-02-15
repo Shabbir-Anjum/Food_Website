@@ -5,7 +5,7 @@ import React from "react";
 export default function Contact() {
   return (
     <>
-      <section className=" bg-secondaryColor">
+      <section id="contact" className=" bg-secondaryColor">
         <div className="flex flex-col md:flex-row gap-5 md:items-center p-5">
           <div className=" md:flex-1 ">
             <h2 className="  font-Roboto font-bold text-4xl text-black py-4 ">

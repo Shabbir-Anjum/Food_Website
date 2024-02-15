@@ -14,7 +14,7 @@ import { Pagination } from "swiper/modules";
 import ReviewData from "./ReviewData";
 export default function Review() {
   return (
-    <div className="mt-16 bg-primaryColorLight p-12 md:py-48 rounded-md">
+    <div id="review" className="mt-16 bg-primaryColorLight p-12 md:py-48 rounded-md">
       <div className="flex flex-col mx-auto items-center">
         <div>
           <h4 className="title">Customer Review</h4>

@@ -1,12 +1,12 @@
 import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faLocation, faPhone, faVoicemail } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faLocation, faPhone, faVoicemail } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 export default function Footer() {
   return (
     <>
-      <footer className="container ">
+      <footer  className="container ">
         <div className="grid gap-5 md:gap-24 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-8  mt-20 border-b border-primaryColorLight ">
           <div className="">
             <h1 className="heading">
@@ -21,10 +21,10 @@ export default function Footer() {
           </div>
           <div className="flex flex-col gap-2">
             <h3 className="heading">Support</h3>
-            <a href="#">FAQ's</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms & Conditions</a>
-            <a href="#">Contact</a>
+            <a href="#" className="hover:text-yellow-500">FAQ's</a>
+            <a href="#" className="hover:text-yellow-500">Privacy Policy</a>
+            <a href="#" className="hover:text-yellow-500">Terms & Conditions</a>
+            <a href="#" className="hover:text-yellow-500">Contact</a>
           </div>
           <div className="">
             <h3 className=" heading">Phone</h3>
@@ -35,7 +35,7 @@ export default function Footer() {
             <div className="md:pt-8">
             <h3 className=" heading">Email</h3>
             <div className="flex gap-1 items-center ">
-                <FontAwesomeIcon icon={faVoicemail} className="mr-2 text-secondaryColor"/>
+                <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-secondaryColor"/>
                 mahrshabbir768@gmail.com
             </div>
           </div>

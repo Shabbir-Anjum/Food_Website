@@ -5,7 +5,7 @@ import React from "react";
 export default function About() {
   return (
     <>
-      <div className="container mt-8 flex flex-col md:flex-row items-center gap-4  overflow-hidden">
+      <div id="about" className="container mt-8 flex flex-col md:flex-row items-center gap-4  overflow-hidden">
         <div className="flex-1">
           <img src="../img/about.jpg" alt="erorr" className="  rounded-lg" />
         </div>

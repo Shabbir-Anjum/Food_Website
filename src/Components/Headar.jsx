@@ -17,10 +17,10 @@ import { faBars, faMoon, faXmark } from '@fortawesome/free-solid-svg-icons'
         <div className={`${ClassN? 'block': 'hidden'} text-xl  md:static md:py-0 md:w-auto  md:block absolute left-0 top-0  w-full py-5 ${mod?'bg-darkColor' : 'bg-primaryColor'}`} >
         <ul className="flex flex-col gap-4 justify-center items-center  md:flex-row md:justify-end ">
           <li><a onClick={handle} href="#"className="hover:text-secondaryColor ease-out duration-200">Home</a></li>
-          <li><a onClick={handle} href="#"className="hover:text-secondaryColor ease-out duration-200">About</a></li>
-          <li><a onClick={handle} href="#"className="hover:text-secondaryColor ease-in duration-200">Menu</a></li>
-          <li><a onClick={handle} href="#"className="hover:text-secondaryColor ease-in duration-200">Review</a></li>
-          <li><a onClick={handle} href="#"className="hover:text-secondaryColor ease-in duration-200">Contact</a></li>
+          <li><a onClick={handle} href="#about"className="hover:text-secondaryColor ease-out duration-200">About</a></li>
+          <li><a onClick={handle} href="#menu"className="hover:text-secondaryColor ease-in duration-200">Menu</a></li>
+          <li><a onClick={handle} href="#review"className="hover:text-secondaryColor ease-in duration-200">Review</a></li>
+          <li><a onClick={handle} href="#contact"className="hover:text-secondaryColor ease-in duration-200">Contact</a></li>
         </ul>
         <div className="cursor-pointer absolute top-4 md:hidden  right-6">
         <FontAwesomeIcon icon={faXmark} onClick={handle}/>

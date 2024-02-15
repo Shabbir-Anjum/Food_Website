@@ -1,12 +1,30 @@
 import { faEnvira } from "@fortawesome/free-brands-svg-icons";
-import { faDroplet, faUtensils } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp, faArrowUpAZ, faDroplet, faUtensils } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 function Home() {
+  const [bottom, setbottom] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= 250) {
+        setbottom(true);
+      } else {
+        setbottom(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up event listener on component unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []); 
   return (
     <>
-      <section className="container text-center">
+      <section id="/" className="container text-center">
         
         <div className="  flex justify-center items-center flex-col gap-10  md:flex-row">
           <div className=" mx-auto animate-movingY md:basis-1/2 ">
@@ -15,7 +33,7 @@ function Home() {
         </div>
 <div>
           <div className="title text-center">
-            <h1>Happy Enjoy</h1>
+            <h1>Happy Enjoy {scrollY}</h1>
 
           </div>
           <div className=" seperator my-3 m-auto"></div>
@@ -60,6 +78,9 @@ function Home() {
         </div>
     
       </section>
+      <div className={`${bottom? 'bottom-5': '-bottom-1/2'} fixed z-20 right-8 flex  text-black`}> 
+      <a href="#"><FontAwesomeIcon icon={faArrowUp} className="w-6 h-6 p-4 bg-secondaryColor rounded-full"/></a>
+      </div>
     </>
   );
 }

@@ -31,7 +31,7 @@ export default {
     },
     keyframes:{
       move:{
-        '50%': {transform: 'rotate(360) '}
+        '50%': {transform: 'translateY(1rem)'}
       }
     },
     animation:{
