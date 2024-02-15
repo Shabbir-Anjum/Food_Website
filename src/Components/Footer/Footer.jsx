@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <>
       <footer className="container ">
-        <div className="grid gap-5 md:gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-8  mt-20 border-b border-red-500 ">
+        <div className="grid gap-5 md:gap-24 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-8  mt-20 border-b border-primaryColorLight ">
           <div className="">
             <h1 className="heading">
               BUR <span className=" text-secondaryColor">GUR</span>
@@ -32,21 +32,21 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faPhone} className="mr-2 text-secondaryColor"/>
                 +92 331 8701099
             </div>
-            <div>
+            <div className="md:pt-8">
             <h3 className=" heading">Email</h3>
-            <div className="flex gap-1">
+            <div className="flex gap-1 items-center ">
                 <FontAwesomeIcon icon={faVoicemail} className="mr-2 text-secondaryColor"/>
                 mahrshabbir768@gmail.com
             </div>
           </div>
           </div>
-          <div className="">
+          <div>
             <h3 className=" heading">Address</h3>
             <div>
                 <FontAwesomeIcon icon={faLocation} className="mr-2 text-secondaryColor"/>
                 Faisalabad
             </div>
-            <div>
+            <div className="md:pt-8">
             <h3 className=" heading">Follow US</h3>
             <div className="flex">
                 <a href="#"><FontAwesomeIcon icon={faFacebook} className="mr-2 text-secondaryColor"/></a>
@@ -56,12 +56,12 @@ export default function Footer() {
           </div>
           </div>
         </div>
-        <div>
+        <div className="flex justify-between items-center py-8">
             <div>
-                fdfdfd
+                Burger Template by Shabbir Anjum
             </div>
             <div>
-                fdfdsf
+                Copyright Reserved 2023. @ All Right Reserved.
             </div>
         </div>
       </footer>
